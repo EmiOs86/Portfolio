@@ -23,9 +23,13 @@ h6 {
   font-family: "Fredericka the Great", cursive;
 }
 
+h2 {
+  font-size: 48px;
+}
+
 p {
   font-family: "Poppins", sans-serif;
-  font-weight: normal;
+  font-weight: 200;
   color: var(--light-grey);
 }
 
@@ -50,4 +54,24 @@ p {
 .hero-mobile {
   display: block;
   margin: 30px 5%;
+}
+
+.portfolio-picture {
+  max-width: 100%;
+}
+
+.hello-section {
+  background: var(--light-orange-color);
+}
+
+.hello {
+  color: var(--orange-color);
+}
+
+.btn-about {
+  background: var(--orange-color);
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 10px 60px;
 }
