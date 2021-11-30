@@ -1,3 +1,19 @@
+:root {
+  --light-mauve-color: #fff2f3;
+  --mauve-color: #c38586;
+  --light-orange-color: #faf1eb;
+  --orange-color: #cb732a;
+  --light-blue-color: #e3eaf0;
+  --blue-color: #7184a1;
+  --light-green-color: #e0e9e8;
+  --green-color: #44626d;
+  --light-grey: #656768;
+}
+
+body {
+  background-color: #faf1eb;
+}
+
 h1,
 h2,
 h3,
@@ -10,5 +26,28 @@ h6 {
 p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
-  color: #656768;
+  color: var(--light-grey);
+}
+
+.hero {
+  margin: 50px auto;
+}
+
+.hero-logo-left {
+  text-align: right;
+  font-size: 24px;
+  color: var(--green-color);
+}
+
+.hero-logo {
+  max-width: 100%;
+}
+
+.hero-logo-right {
+  color: var(--green-color);
+}
+
+.hero-mobile {
+  display: block;
+  margin: 30px 5%;
 }
