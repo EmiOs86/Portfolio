@@ -57,10 +57,34 @@ p {
   margin: 30px 5%;
 }
 
+/* Homepage content general */
 .homepage-content-full-width {
   padding: 0 0;
 }
 
+.homepage-content-md-picture {
+  display: block;
+  margin: 0 auto;
+  height: 350px;
+  width: auto;
+}
+
+.homepage-content-picture {
+  max-width: 100%;
+}
+
+.homepage-content-img {
+  padding: 0 0;
+}
+
+.p-md {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 90%;
+}
+
+/* Hello Section */
 .hello-md-section {
   background-color: var(--light-orange-color);
 }
@@ -88,7 +112,6 @@ p {
 
 .hello {
   color: var(--orange-color);
-  background: var(--light-orange-color);
 }
 
 .btn-about-md {
@@ -109,24 +132,29 @@ p {
   padding: 10px 60px;
 }
 
-.homepage-content-md-picture {
-  display: block;
-  margin: 0 auto;
-  height: 350px;
-  width: auto;
+/* Design Section */
+.design {
+  color: var(--mauve-color);
 }
 
-.homepage-content-picture {
-  max-width: 100%;
+.design-xl-section {
+  background-color: var(--light-mauve-color);
+  border-radius: 4px 0 0 4px;
+  height: 600px;
+  text-align: right;
+  margin-right: 70px;
+
+  /* 
+  margin-left: 0px;
+  
+  padding: 2% 50px 2% 12px;
+  */
 }
 
-.homepage-content-img {
-  padding: 0 0;
-}
-
-.p-md {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  width: 90%;
+.btn-design {
+  background: var(--mauve-color);
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 10px 60px;
 }
