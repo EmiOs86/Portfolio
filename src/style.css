@@ -57,8 +57,12 @@ p {
   margin: 30px 5%;
 }
 
-.portfolio-picture {
-  max-width: 100%;
+.homepage-content-full-width {
+  padding: 0 0;
+}
+
+.hello-md-section {
+  background-color: var(--light-orange-color);
 }
 
 .hello-section {
@@ -79,9 +83,24 @@ p {
   padding-bottom: 60px;
 }
 
+.hello-md {
+  color: var(--orange-color);
+  text-align: center;
+}
+
 .hello {
   color: var(--orange-color);
   background: var(--light-orange-color);
+}
+
+.btn-about-md {
+  display: block;
+  margin: 0 auto;
+  background: var(--orange-color);
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+  width: 60%;
 }
 
 .btn-about {
@@ -92,6 +111,24 @@ p {
   padding: 10px 60px;
 }
 
+.homepage-content-md-picture {
+  display: block;
+  margin: 0 auto;
+  height: 350px;
+  width: auto;
+}
+
+.homepage-content-picture {
+  max-width: 100%;
+}
+
 .homepage-content-img {
   padding: 0 0;
+}
+
+.p-md {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 90%;
 }
