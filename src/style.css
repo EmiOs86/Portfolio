@@ -57,12 +57,6 @@ p {
   margin: 30px 5%;
 }
 
-.homepage-content {
-  display: block;
-  width: 100%;
-  padding: 0 0;
-}
-
 .portfolio-picture {
   max-width: 100%;
 }
@@ -73,6 +67,16 @@ p {
   margin-left: 70px;
   margin-right: 0%;
   padding-left: 50px;
+}
+
+.hello-xxl-section {
+  background-color: var(--light-orange-color);
+  border-radius: 4px 0 0 4px;
+  margin-left: 70px;
+  margin-right: 0%;
+  padding-left: 50px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .hello {
