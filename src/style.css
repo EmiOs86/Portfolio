@@ -11,7 +11,7 @@
 }
 
 body {
-  background: #faf1eb;
+  background-color: #fffafa;
 }
 
 h1,
@@ -31,6 +31,7 @@ p {
   font-family: "Poppins", sans-serif;
   font-weight: 200;
   color: var(--light-grey);
+  font-size: 16px;
 }
 
 .hero {
@@ -58,7 +59,6 @@ p {
 
 .homepage-content {
   display: block;
-  margin-right: 0;
   width: 100%;
   padding: 0 0;
 }
@@ -69,6 +69,10 @@ p {
 
 .hello-section {
   background-color: var(--light-orange-color);
+  border-radius: 4px 0 0 4px;
+  margin-left: 70px;
+  margin-right: 0%;
+  padding-left: 50px;
 }
 
 .hello {
@@ -82,4 +86,8 @@ p {
   border-radius: 4px;
   font-size: 18px;
   padding: 10px 60px;
+}
+
+.homepage-content-img {
+  padding: 0 0;
 }
