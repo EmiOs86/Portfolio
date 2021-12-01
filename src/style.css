@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: #faf1eb;
+  background: #faf1eb;
 }
 
 h1,
@@ -56,16 +56,21 @@ p {
   margin: 30px 5%;
 }
 
+.homepage-content {
+  width: 100%;
+}
+
 .portfolio-picture {
   max-width: 100%;
 }
 
 .hello-section {
-  background: var(--light-orange-color);
+  background-color: var(--light-orange-color);
 }
 
 .hello {
   color: var(--orange-color);
+  background: var(--light-orange-color);
 }
 
 .btn-about {
