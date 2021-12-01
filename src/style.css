@@ -65,22 +65,20 @@ p {
   background-color: var(--light-orange-color);
 }
 
-.hello-section {
+.hello-lg-section {
   background-color: var(--light-orange-color);
   border-radius: 4px 0 0 4px;
   margin-left: 70px;
   margin-right: 0%;
-  padding-left: 50px;
+  padding: 1% 12px 1% 50px;
 }
 
-.hello-xxl-section {
+.hello-xl-section {
   background-color: var(--light-orange-color);
   border-radius: 4px 0 0 4px;
   margin-left: 70px;
   margin-right: 0%;
-  padding-left: 50px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 2% 12px 2% 50px;
 }
 
 .hello-md {
