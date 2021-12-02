@@ -84,6 +84,13 @@ p {
   width: 90%;
 }
 
+.box-wrapper {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /* Hello Section */
 .hello-md-section {
   background-color: var(--light-orange-color);
@@ -100,7 +107,7 @@ p {
 .hello-xl-section {
   background-color: var(--light-orange-color);
   border-radius: 4px 0 0 4px;
-  margin-left: 70px;
+  margin-left: 50px;
   margin-right: 0%;
   padding: 2% 12px 2% 50px;
 }
@@ -125,11 +132,12 @@ p {
 }
 
 .btn-about {
+  display: block;
+  width: 300px;
   background: var(--orange-color);
   color: white;
   border-radius: 4px;
   font-size: 18px;
-  padding: 10px 60px;
 }
 
 /* Design Section */
@@ -142,19 +150,15 @@ p {
   border-radius: 4px 0 0 4px;
   height: 600px;
   text-align: right;
-  margin-right: 70px;
-
-  /* 
-  margin-left: 0px;
-  
+  margin-right: 50px;
   padding: 2% 50px 2% 12px;
-  */
 }
 
 .btn-design {
+  display: block;
+  width: 300px;
   background: var(--mauve-color);
   color: white;
   border-radius: 4px;
   font-size: 18px;
-  padding: 10px 60px;
 }
