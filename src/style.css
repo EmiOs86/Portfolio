@@ -6,6 +6,8 @@
   --light-blue-color: #e3eaf0;
   --blue-color: #7184a1;
   --light-green-color: #e0e9e8;
+  --light-purple-color: #f4f0fa;
+  --purple-color: #7a659b;
   --green-color: #44626d;
   --light-grey: #656768;
 }
@@ -207,6 +209,28 @@ p {
   display: block;
   width: 300px;
   background: var(--green-color);
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+/* Pricing */
+.pricing {
+  color: var(--purple-color);
+}
+
+.pricing-xl-section {
+  display: flex;
+  margin: 0 5%;
+  background-color: var(--light-purple-color);
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+}
+
+.btn-pricing {
+  display: block;
+  width: 200px;
+  background: var(--purple-color);
   color: white;
   border-radius: 4px;
   font-size: 18px;
