@@ -1,7 +1,7 @@
 :root {
   --light-mauve-color: #fff2f3;
   --mauve-color: #c38586;
-  --light-orange-color: #faf1eb;
+  --light-orange-color: #fff6f0;
   --orange-color: #cb732a;
   --light-blue-color: #e3eaf0;
   --blue-color: #7184a1;
@@ -107,8 +107,9 @@ p {
 .hello-xl-section {
   background-color: var(--light-orange-color);
   border-radius: 4px 0 0 4px;
-  margin-left: 50px;
-  margin-right: 0%;
+  height: 600px;
+  margin-left: 0;
+  margin-right: 0;
   padding: 2% 12px 2% 50px;
 }
 
@@ -147,10 +148,11 @@ p {
 
 .design-xl-section {
   background-color: var(--light-mauve-color);
-  border-radius: 4px 0 0 4px;
+  border-radius: 0 4px 4px 0;
   height: 600px;
   text-align: right;
-  margin-right: 50px;
+  margin-left: 0;
+  margin-right: 0;
   padding: 2% 50px 2% 12px;
 }
 
@@ -158,6 +160,53 @@ p {
   display: block;
   width: 300px;
   background: var(--mauve-color);
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+/* Tech Section */
+.tech {
+  color: var(--blue-color);
+}
+
+.tech-xl-section {
+  background-color: var(--light-blue-color);
+  border-radius: 4px 0 0 4px;
+  height: 600px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 2% 12px 2% 50px;
+}
+
+.btn-tech {
+  display: block;
+  width: 300px;
+  background: var(--blue-color);
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+/* Education Section */
+.education {
+  color: var(--green-color);
+}
+
+.education-xl-section {
+  background-color: var(--light-green-color);
+  border-radius: 0 4px 4px 0;
+  height: 600px;
+  text-align: right;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 2% 50px 2% 12px;
+}
+
+.btn-education {
+  display: block;
+  width: 300px;
+  background: var(--green-color);
   color: white;
   border-radius: 4px;
   font-size: 18px;
