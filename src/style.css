@@ -106,9 +106,9 @@ p {
 
 .hello-xl-section {
   background-color: var(--light-orange-color);
-  border-radius: 4px 0 0 4px;
+  border-radius: 10px 0 0 10px;
   height: 600px;
-  margin-left: 0;
+  margin-left: 20px;
   margin-right: 0;
   padding: 2% 12px 2% 50px;
 }
@@ -148,11 +148,11 @@ p {
 
 .design-xl-section {
   background-color: var(--light-mauve-color);
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 10px 10px 0;
   height: 600px;
   text-align: right;
   margin-left: 0;
-  margin-right: 0;
+  margin-right: 20px;
   padding: 2% 50px 2% 12px;
 }
 
@@ -172,9 +172,9 @@ p {
 
 .tech-xl-section {
   background-color: var(--light-blue-color);
-  border-radius: 4px 0 0 4px;
+  border-radius: 10px 0 0 10px;
   height: 600px;
-  margin-left: 0;
+  margin-left: 20px;
   margin-right: 0;
   padding: 2% 12px 2% 50px;
 }
@@ -195,11 +195,11 @@ p {
 
 .education-xl-section {
   background-color: var(--light-green-color);
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 10px 10px 0;
   height: 600px;
   text-align: right;
   margin-left: 0;
-  margin-right: 0;
+  margin-right: 20px;
   padding: 2% 50px 2% 12px;
 }
 
