@@ -144,11 +144,32 @@ p {
   width: 60%;
 }
 
+.btn-about-md:hover {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid var(--orange-color);
+  background: none;
+  color: var(--orange-color);
+  border-radius: 4px;
+  font-size: 18px;
+  width: 60%;
+}
+
 .btn-about {
   display: block;
   width: 300px;
   background: var(--orange-color);
   color: white;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.btn-about:hover {
+  display: block;
+  width: 300px;
+  border: 1px solid var(--orange-color);
+  background: none;
+  color: var(--orange-color);
   border-radius: 4px;
   font-size: 18px;
 }
@@ -207,11 +228,32 @@ p {
   width: 60%;
 }
 
+.btn-design-md:hover {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid var(--mauve-color);
+  background: none;
+  color: var(--mauve-color);
+  border-radius: 4px;
+  font-size: 18px;
+  width: 60%;
+}
+
 .btn-design {
   display: block;
   width: 300px;
   background: var(--mauve-color);
   color: white;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.btn-design:hover {
+  display: block;
+  width: 300px;
+  border: 1px solid var(--mauve-color);
+  background: none;
+  color: var(--mauve-color);
   border-radius: 4px;
   font-size: 18px;
 }
@@ -267,11 +309,32 @@ p {
   width: 60%;
 }
 
+.btn-tech-md:hover {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid var(--blue-color);
+  background: none;
+  color: var(--blue-color);
+  border-radius: 4px;
+  font-size: 18px;
+  width: 60%;
+}
+
 .btn-tech {
   display: block;
   width: 300px;
   background: var(--blue-color);
   color: white;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.btn-tech:hover {
+  display: block;
+  width: 300px;
+  border: 1px solid var(--blue-color);
+  background: none;
+  color: var(--blue-color);
   border-radius: 4px;
   font-size: 18px;
 }
@@ -330,11 +393,32 @@ p {
   width: 60%;
 }
 
+.btn-education-md:hover {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid var(--green-color);
+  background: none;
+  color: var(--green-color);
+  border-radius: 4px;
+  font-size: 18px;
+  width: 60%;
+}
+
 .btn-education {
   display: block;
   width: 300px;
   background: var(--green-color);
   color: white;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.btn-education:hover {
+  display: block;
+  width: 300px;
+  border: 1px solid var(--green-color);
+  background: none;
+  color: var(--green-color);
   border-radius: 4px;
   font-size: 18px;
 }
