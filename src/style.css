@@ -67,7 +67,7 @@ p {
 .homepage-content-md-picture {
   display: block;
   margin: 0 auto;
-  height: 350px;
+  height: 400px;
   width: auto;
 }
 
@@ -94,14 +94,23 @@ p {
 }
 
 /* Hello Section */
+.hello {
+  color: var(--orange-color);
+}
+
 .hello-md-section {
   background-color: var(--light-orange-color);
+}
+
+.hello-md {
+  color: var(--orange-color);
+  text-align: center;
 }
 
 .hello-lg-section {
   background-color: var(--light-orange-color);
   border-radius: 7px 0 0 7px;
-  height: 450px;
+  height: 500px;
   margin-left: 20px;
   margin-right: 0;
   padding: 0 12px 0 50px;
@@ -123,15 +132,6 @@ p {
   margin-left: 20px;
   margin-right: 0;
   padding: 0 12px 0 50px;
-}
-
-.hello-md {
-  color: var(--orange-color);
-  text-align: center;
-}
-
-.hello {
-  color: var(--orange-color);
 }
 
 .btn-about-md {
@@ -156,6 +156,15 @@ p {
 /* Design Section */
 .design {
   color: var(--mauve-color);
+}
+
+.design-md-section {
+  background-color: var(--light-mauve-color);
+}
+
+.design-md {
+  color: var(--mauve-color);
+  text-align: center;
 }
 
 .design-lg-section {
@@ -188,6 +197,16 @@ p {
   padding: 0 50px 0 12px;
 }
 
+.btn-design-md {
+  display: block;
+  margin: 0 auto;
+  background: var(--mauve-color);
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+  width: 60%;
+}
+
 .btn-design {
   display: block;
   width: 300px;
@@ -200,6 +219,15 @@ p {
 /* Tech Section */
 .tech {
   color: var(--blue-color);
+}
+
+.tech-md-section {
+  background-color: var(--light-blue-color);
+}
+
+.tech-md {
+  color: var(--blue-color);
+  text-align: center;
 }
 
 .tech-lg-section {
@@ -229,6 +257,16 @@ p {
   padding: 0 12px 0 50px;
 }
 
+.btn-tech-md {
+  display: block;
+  margin: 0 auto;
+  background: var(--blue-color);
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+  width: 60%;
+}
+
 .btn-tech {
   display: block;
   width: 300px;
@@ -241,6 +279,15 @@ p {
 /* Education Section */
 .education {
   color: var(--green-color);
+}
+
+.education-md-section {
+  background-color: var(--light-green-color);
+}
+
+.education-md {
+  color: var(--green-color);
+  text-align: center;
 }
 
 .education-lg-section {
@@ -271,6 +318,16 @@ p {
   margin-left: 0;
   margin-right: 20px;
   padding: 0 50px 0 12px;
+}
+
+.btn-education-md {
+  display: block;
+  margin: 0 auto;
+  background: var(--green-color);
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+  width: 60%;
 }
 
 .btn-education {
