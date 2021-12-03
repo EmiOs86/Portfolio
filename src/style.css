@@ -428,6 +428,16 @@ p {
   color: var(--purple-color);
 }
 
+.pricing-md {
+  color: var(--purple-color);
+  text-align: center;
+}
+
+.pricing-md-section {
+  background-color: var(--light-purple-color);
+  text-align: center;
+}
+
 .pricing-xl-section {
   display: flex;
   margin: 0 5%;
@@ -436,11 +446,42 @@ p {
   text-align: center;
 }
 
+.btn-pricing-md {
+  display: block;
+  margin: 0 auto;
+  background: var(--purple-color);
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+  width: 60%;
+}
+
+.btn-pricing-md:hover {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid var(--purple-color);
+  background: none;
+  color: var(--purple-color);
+  border-radius: 4px;
+  font-size: 18px;
+  width: 60%;
+}
+
 .btn-pricing {
   display: block;
   width: 200px;
   background: var(--purple-color);
   color: white;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.btn-pricing:hover {
+  display: block;
+  width: 200px;
+  border: 1px solid var(--purple-color);
+  background: none;
+  color: var(--purple-color);
   border-radius: 4px;
   font-size: 18px;
 }
