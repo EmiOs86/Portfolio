@@ -485,3 +485,30 @@ p {
   border-radius: 4px;
   font-size: 18px;
 }
+
+/* About Page */
+.progress-bar-design {
+  background: var(--mauve-color);
+  font-family: "Poppins", sans-serif;
+}
+
+.progress-bar-title-design {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  color: var(--mauve-color);
+}
+
+.progress {
+  background: white;
+}
+
+.progress-text {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.progress-percentage {
+  text-align: right;
+  padding-right: 5px;
+}
