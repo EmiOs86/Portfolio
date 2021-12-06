@@ -487,6 +487,31 @@ p {
 }
 
 /* About Page */
+.progress-bar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.progress {
+  background: white;
+}
+
+.progress-text {
+  text-align: left;
+  padding-left: 10px;
+  margin-top: 4px;
+  font-weight: 200;
+  font-size: 10px;
+}
+
+.progress-percentage {
+  text-align: right;
+  padding-right: 5px;
+  margin-top: 2px;
+}
+
+/*Design progess bar*/
 .progress-bar-design {
   background: var(--mauve-color);
   font-family: "Poppins", sans-serif;
@@ -499,16 +524,7 @@ p {
   color: var(--mauve-color);
 }
 
-.progress {
-  background: white;
-}
-
-.progress-text {
-  text-align: left;
-  padding-left: 10px;
-}
-
-.progress-percentage {
-  text-align: right;
-  padding-right: 5px;
+.design-title {
+  color: var(--mauve-color);
+  font-size: 60px;
 }
