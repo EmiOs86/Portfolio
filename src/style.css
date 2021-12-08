@@ -560,6 +560,25 @@ p {
   color: var(--orange-color);
 }
 
+/* Contact Page*/
+.contact-heading {
+  font-size: 50px;
+  text-align: center;
+  color: var(--green-color);
+}
+
+.calendly-heading {
+  font-size: 50px;
+  text-align: center;
+  color: var(--green-color);
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+
+.calendly-section {
+  background-color: var(--light-green-color);
+}
+
 /* Contact footer general*/
 .contact-md-purple {
   text-align: center;
