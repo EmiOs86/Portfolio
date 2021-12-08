@@ -423,69 +423,6 @@ p {
   font-size: 18px;
 }
 
-/* Pricing */
-.pricing {
-  color: var(--purple-color);
-}
-
-.pricing-md {
-  color: var(--purple-color);
-  text-align: center;
-}
-
-.pricing-md-section {
-  background-color: var(--light-purple-color);
-  text-align: center;
-}
-
-.pricing-xl-section {
-  display: flex;
-  margin: 0 5%;
-  background-color: var(--light-purple-color);
-  border-radius: 10px 10px 10px 10px;
-  text-align: center;
-}
-
-.btn-pricing-md {
-  display: block;
-  margin: 0 auto;
-  background: var(--purple-color);
-  color: white;
-  border-radius: 4px;
-  font-size: 18px;
-  width: 60%;
-}
-
-.btn-pricing-md:hover {
-  display: block;
-  margin: 0 auto;
-  border: 1px solid var(--purple-color);
-  background: none;
-  color: var(--purple-color);
-  border-radius: 4px;
-  font-size: 18px;
-  width: 60%;
-}
-
-.btn-pricing {
-  display: block;
-  width: 200px;
-  background: var(--purple-color);
-  color: white;
-  border-radius: 4px;
-  font-size: 18px;
-}
-
-.btn-pricing:hover {
-  display: block;
-  width: 200px;
-  border: 1px solid var(--purple-color);
-  background: none;
-  color: var(--purple-color);
-  border-radius: 4px;
-  font-size: 18px;
-}
-
 /* Portfolio Page */
 .progress-bar {
   display: flex;
@@ -621,4 +558,91 @@ p {
 .about-hello-md {
   text-align: center;
   color: var(--orange-color);
+}
+
+/* Contact footer general*/
+.contact-md-purple {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.contact-md-section-purple {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.contact-xl-section-purple {
+  display: flex;
+  margin: 0 5%;
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+}
+
+.btn-contact-md-purple {
+  display: block;
+  margin: 0 auto;
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+  width: 60%;
+}
+
+.btn-contact-md-purple:hover {
+  display: block;
+  margin: 0 auto;
+  background: none;
+  border-radius: 4px;
+  font-size: 18px;
+  width: 60%;
+}
+
+.btn-contact-purple {
+  display: block;
+  width: 200px;
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.btn-contact-purple:hover {
+  display: block;
+  width: 200px;
+  background: none;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+/* Contact footer purple*/
+.contact-purple {
+  color: var(--purple-color);
+}
+
+.contact-md-purple {
+  color: var(--purple-color);
+}
+
+.contact-md-section-purple {
+  background-color: var(--light-purple-color);
+}
+
+.contact-xl-section-purple {
+  background-color: var(--light-purple-color);
+}
+
+.btn-contact-md-purple {
+  background: var(--purple-color);
+}
+
+.btn-contact-md-purple:hover {
+  border: 1px solid var(--purple-color);
+  color: var(--purple-color);
+}
+
+.btn-contact-purple {
+  background: var(--purple-color);
+}
+
+.btn-contact-purple:hover {
+  border: 1px solid var(--purple-color);
+  color: var(--purple-color);
 }
