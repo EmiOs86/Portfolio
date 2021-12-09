@@ -624,25 +624,25 @@ nav li.active a {
   background-color: var(--light-green-color);
 }
 
-/* Contact footer general*/
-.contact-md-purple {
+/* Footer general*/
+.contact-md {
   text-align: center;
   padding-top: 20px;
 }
 
-.contact-md-section-purple {
+.contact-md-section {
   text-align: center;
   padding-bottom: 25px;
 }
 
-.contact-xl-section-purple {
+.contact-xl-section {
   display: flex;
   margin: 0 5%;
   border-radius: 10px 10px 10px 10px;
   text-align: center;
 }
 
-.btn-contact-md-purple {
+.btn-contact-md {
   display: block;
   margin: 0 auto;
   color: white;
@@ -651,16 +651,11 @@ nav li.active a {
   width: 60%;
 }
 
-.btn-contact-md-purple:hover {
-  display: block;
-  margin: 0 auto;
+.btn-contact-md:hover {
   background: none;
-  border-radius: 4px;
-  font-size: 18px;
-  width: 60%;
 }
 
-.btn-contact-purple {
+.btn-contact {
   display: block;
   width: 200px;
   color: white;
@@ -668,42 +663,24 @@ nav li.active a {
   font-size: 18px;
 }
 
-.btn-contact-purple:hover {
-  display: block;
-  width: 200px;
+.btn-contact:hover {
   background: none;
-  border-radius: 4px;
-  font-size: 18px;
 }
 
 /* Contact footer purple*/
-.contact-purple {
+.footer-purple,
+.btn-contact-md-purple,
+.btn-contact-purple {
   color: var(--purple-color);
 }
 
-.contact-md-purple {
-  color: var(--purple-color);
-}
-
-.contact-md-section-purple {
+.footer-light-purple {
   background-color: var(--light-purple-color);
-}
-
-.contact-xl-section-purple {
-  background-color: var(--light-purple-color);
-}
-
-.btn-contact-md-purple {
-  background: var(--purple-color);
 }
 
 .btn-contact-md-purple:hover {
   border: 1px solid var(--purple-color);
   color: var(--purple-color);
-}
-
-.btn-contact-purple {
-  background: var(--purple-color);
 }
 
 .btn-contact-purple:hover {
