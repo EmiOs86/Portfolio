@@ -36,8 +36,52 @@ p {
   font-size: 16px;
 }
 
+/*Nav Bar*/
+.nav-logo {
+  max-height: 130px;
+}
+
+.nav-logo-md {
+  max-height: 50px;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  color: var(--light-grey);
+  line-height: 130px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--light-grey);
+  transition: all 130ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--mauve-color);
+}
+
+@media (max-width: 767px) {
+  nav a {
+    font-size: 12px;
+  }
+  nav li {
+    line-height: 50px;
+    margin-left: 7px;
+  }
+}
+
 .hero {
-  margin: 50px auto;
+  margin: 30px auto;
 }
 
 .hero-logo-left {
@@ -56,7 +100,8 @@ p {
 
 .hero-mobile {
   display: block;
-  margin: 30px 5%;
+  margin: 0 5%;
+  margin-bottom: 30px;
 }
 
 /* Homepage content general */
