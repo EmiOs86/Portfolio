@@ -667,15 +667,27 @@ nav li.active a {
   background: none;
 }
 
-/* Contact footer purple*/
-.footer-purple,
-.btn-contact-md-purple,
-.btn-contact-purple {
+.social-links a {
+  margin: 0 10px;
+  font-size: 24px;
+}
+
+.social-links i:hover {
+  color: var(--mauve-color);
+}
+
+/* Footer purple*/
+.footer-purple {
   color: var(--purple-color);
 }
 
 .footer-light-purple {
   background-color: var(--light-purple-color);
+}
+
+.btn-contact-md-purple,
+.btn-contact-purple {
+  background-color: var(--purple-color);
 }
 
 .btn-contact-md-purple:hover {
@@ -686,4 +698,96 @@ nav li.active a {
 .btn-contact-purple:hover {
   border: 1px solid var(--purple-color);
   color: var(--purple-color);
+}
+
+.social-links-purple i {
+  color: var(--purple-color);
+}
+
+/* Footer Green*/
+.footer-green {
+  color: var(--green-color);
+}
+
+.footer-light-green {
+  background-color: var(--light-green-color);
+}
+
+.btn-contact-md-green,
+.btn-contact-green {
+  background-color: var(--green-color);
+}
+
+.btn-contact-md-green:hover {
+  border: 1px solid var(--green-color);
+  color: var(--green-color);
+}
+
+.btn-contact-green:hover {
+  border: 1px solid var(--green-color);
+  color: var(--green-color);
+}
+
+.social-links-green i {
+  color: var(--green-color);
+}
+
+/* Footer Orange*/
+.footer-orange {
+  color: var(--orange-color);
+}
+
+.footer-light-orange {
+  background-color: var(--light-orange-color);
+}
+
+.btn-contact-md-orange,
+.btn-contact-orange {
+  background-color: var(--orange-color);
+}
+
+.btn-contact-md-orange:hover {
+  border: 1px solid var(--orange-color);
+  color: var(--orange-color);
+}
+
+.btn-contact-orange:hover {
+  border: 1px solid var(--orange-color);
+  color: var(--orange-color);
+}
+
+.social-links-orange i {
+  color: var(--orange-color);
+}
+
+/* Footer Mauve*/
+.footer-mauve {
+  color: var(--mauve-color);
+}
+
+.footer-light-mauve {
+  background-color: var(--light-mauve-color);
+}
+
+.btn-contact-md-mauve,
+.btn-contact-mauve {
+  background-color: var(--mauve-color);
+}
+
+.btn-contact-md-mauve:hover {
+  border: 1px solid var(--mauve-color);
+  color: var(--mauve-color);
+}
+
+.btn-contact-mauve:hover {
+  border: 1px solid var(--mauve-color);
+  color: var(--mauve-color);
+}
+
+.social-links-mauve i {
+  color: var(--mauve-color);
+}
+
+.social-links-mauve i:hover {
+  color: var(--green-color) !important;
 }
