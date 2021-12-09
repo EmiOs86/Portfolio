@@ -578,6 +578,12 @@ nav li.active a {
 }
 
 /* Certificate Carousel */
+.certificate-title {
+  color: var(--green-color);
+  font-size: 60px;
+  text-align: center;
+}
+
 .carousel-caption-certificate {
   color: var(--green-color);
 }
