@@ -601,18 +601,49 @@ nav li.active a {
 }
 
 /*About Page*/
-.hello-picture-md {
+.about-picture-md {
   display: block;
   margin: 0 auto;
   width: 70%;
 }
-.hello-picture {
+.about-picture {
   max-width: 100%;
 }
 
 .about-hello-md {
   text-align: center;
   color: var(--orange-color);
+}
+
+.about-lg-p {
+  font-size: 15px;
+}
+
+.about-lg-section {
+  background-color: var(--light-orange-color);
+  border-radius: 7px 0 0 7px;
+  height: 550px;
+  margin-left: 20px;
+  margin-right: 0;
+  padding: 0 12px 0 50px;
+}
+
+.about-xl-section {
+  background-color: var(--light-orange-color);
+  border-radius: 7px 0 0 7px;
+  height: 555px;
+  margin-left: 20px;
+  margin-right: 0;
+  padding: 0 12px 0 50px;
+}
+
+.about-xxl-section {
+  background-color: var(--light-orange-color);
+  border-radius: 10px 0 0 10px;
+  height: 640px;
+  margin-left: 20px;
+  margin-right: 0;
+  padding: 0 12px 0 50px;
 }
 
 /* Contact Page*/
